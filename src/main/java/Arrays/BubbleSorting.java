@@ -1,8 +1,11 @@
 package Arrays;
 import java.util.Arrays;
-public class BubbleSorting {
+public class BubbleSorting 
+{
+	
 public void sortings(int [] arr1)
 {
+	int a=10;
 	for(int i=0;i<arr1.length;i++)
 	{
 		for (int j=0;j<arr1.length-i-1;j++)
